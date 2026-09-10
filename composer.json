@@ -1,0 +1,19 @@
+{
+    "name": "rafalmasiarek/dashboard-kit-addon-request-id",
+    "description": "Per-request correlation ID addon for dashboard-kit. Injects request_id into all Monolog channels and propagates it via X-Request-ID header.",
+    "type": "library",
+    "license": "BUSL-1.1",
+    "require": {
+        "php": "^8.2",
+        "rafalmasiarek/dashboard-kit": "*",
+        "monolog/monolog": "^3.0",
+        "psr/http-server-middleware": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "rafalmasiarek\\DashboardKitRequestId\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
