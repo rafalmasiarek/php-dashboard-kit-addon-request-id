@@ -1,12 +1,47 @@
 # dashboard-kit-addon-request-id
+
+
 [![Packagist Version](https://img.shields.io/packagist/v/rafalmasiarek/dashboard-kit-addon-request-id)](https://packagist.org/packages/rafalmasiarek/dashboard-kit-addon-request-id)
 [![Total Downloads](https://img.shields.io/packagist/dt/rafalmasiarek/dashboard-kit-addon-request-id)](https://packagist.org/packages/rafalmasiarek/dashboard-kit-addon-request-id)
 [![PHP](https://img.shields.io/packagist/php-v/rafalmasiarek/dashboard-kit-addon-request-id)](https://packagist.org/packages/rafalmasiarek/dashboard-kit-addon-request-id)
 [![License](https://img.shields.io/badge/license-BUSL--1.1-red)](https://github.com/rafalmasiarek/php-dashboard-kit-addon-request-id/blob/main/LICENSE)
 
+
+
+
+
+
+
 Per-request correlation ID addon for [dashboard-kit](https://github.com/rafalmasiarek/php-dashboard-kit).
 
 Generates or propagates a request ID from an HTTP header and injects `req.id` into every Monolog log record, making it possible to trace all log entries for a single request across channels.
+
+
+
+
+
+
+
+## License
+
+![License: BUSL-1.1](https://img.shields.io/badge/license-BUSL--1.1-red)
+
+Business Source License 1.1.
+
+Source available; commercial use restricted until 2099-01-01.
+
+
+
+
+See [LICENSE](LICENSE) for full details.
+
+For alternative licensing, [contact us](https://masiarek.pl/contact/?af_subject=Commercial+license+%E2%80%94+dashboard-kit-addon-request-id&af_message=Hello%2C+I+am+interested+in+a+commercial+license+for+dashboard-kit-addon-request-id.).
+
+
+
+## Authors
+
+- Rafał Masiarek | [website](https://masiarek.pl) | [github](https://github.com/rafalmasiarek)
 
 
 
@@ -257,24 +292,6 @@ Invoked by Monolog for every log record. Injects req.id into the record context.
 </details>
 
 
-
-## License
-
-![License: BUSL-1.1](https://img.shields.io/badge/license-BUSL--1.1-red)
-
-Business Source License 1.1.
-
-Source available; commercial use restricted until 2099-01-01.
-
-
-For alternative licensing, contact: https://masiarek.pl/contact/?af_subject=Commercial+license+%E2%80%94+dashboard-kit-addon-request-id&af_message=Hello%2C+I+am+interested+in+a+commercial+license+for+dashboard-kit-addon-request-id.
-
-
-
-See [LICENSE](LICENSE) for full details.
-## Authors
-
-- Rafał Masiarek | [website](https://masiarek.pl) | [github](https://github.com/rafalmasiarek)
 
 
 <!-- references -->
